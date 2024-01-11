@@ -1,11 +1,10 @@
 public class User {
     private String nome;
-    private int age;
+    private Integer age;
     private static User user;
 
     private User() {
     }
-
 
     public String getNome() {
         return nome;
@@ -15,11 +14,11 @@ public class User {
         this.nome = nome;
     }
 
-    public int getAge() {
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
 
